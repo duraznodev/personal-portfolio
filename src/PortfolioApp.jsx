@@ -1,5 +1,17 @@
-function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+import { Footer, Navbar } from "./components";
+import { Contact, Home, Portfolio, Skills } from "./sections";
+
+function PortfolioApp() {
+  return (
+    <div className="bg-neutral-100">
+      <Navbar />
+      <Home />
+      <Skills />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
 
-export default App;
+export default PortfolioApp;
