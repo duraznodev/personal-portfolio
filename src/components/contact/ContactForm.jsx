@@ -5,6 +5,7 @@ import { FormButton, FormLabel, FormTextArea } from "./";
 export const ContactForm = () => {
   const [formState, setFormState] = useState("neutral");
   const form = useRef();
+  1;
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,6 +20,7 @@ export const ContactForm = () => {
       .then(
         () => {
           setFormState("success");
+          form.current.reset();
         },
         () => {
           setFormState("error");
