@@ -1,14 +1,16 @@
 import { PortfolioItem, Section } from "../components";
+import productiveTimer from "../assets/productive-timer.png";
+import randomQuotes from "../assets/random-quotes.png";
 
 const projects = [
   {
-    imageSrc: "/src/assets/productive-timer.png",
+    img: productiveTimer,
     title: "Productive Timer",
     siteUrl: "https://productive-timer-omega.vercel.app/",
     githubUrl: "https://github.com/duraznodev/productive-timer",
   },
   {
-    imageSrc: "/src/assets/random-quotes.png",
+    img: randomQuotes,
     title: "Random Quotes",
     siteUrl: "https://random-quotes-blush.vercel.app/",
     githubUrl: "https://github.com/duraznodev/random-quotes",

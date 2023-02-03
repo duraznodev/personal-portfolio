@@ -1,6 +1,7 @@
 import { IoLogoReact } from "react-icons/io5";
 import { GroupIcons } from "../";
 import { FiChevronsDown } from "react-icons/fi";
+import profile from "/src/assets/profile-pic.png";
 
 export const HomePcUI = ({ text }) => {
   return (
@@ -25,10 +26,7 @@ export const HomePcUI = ({ text }) => {
           </div>
         </div>
         <figure className="w-4/12 shadow-2xl">
-          <img
-            className="aspect-square object-cover"
-            src="/src/assets/profile-pic.png"
-          />
+          <img className="aspect-square object-cover" src={profile} />
         </figure>
       </div>
     </div>
