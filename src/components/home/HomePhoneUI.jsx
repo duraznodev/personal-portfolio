@@ -26,12 +26,19 @@ export const HomePhoneUI = ({ text }) => {
             </p>
           </div>
           <div className="mt-4 flex items-center justify-center gap-2">
-            <button className="gap-1 rounded-xl bg-neutral-900 px-6 py-4 text-xl font-medium text-neutral-50 hover:bg-neutral-700">
+            <a
+              href="#contact"
+              className="cursor-pointer gap-1 rounded-xl bg-neutral-900 px-6 py-4 text-xl font-medium text-neutral-50 hover:bg-neutral-700"
+            >
               <span>Contact Me!</span>
-            </button>
-            <button className="gap-1 rounded-xl border-2 border-neutral-900 bg-neutral-100 px-6 py-4 text-xl font-medium text-neutral-900 hover:bg-neutral-700">
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1_HY5u9wR0-KQhX2DtalZmGvz9f8u1X2z/view?usp=share_link"
+              target="_blank"
+              className="gap-1 rounded-xl border-2 border-neutral-900 bg-neutral-100 px-6 py-4 text-xl font-medium text-neutral-900 hover:bg-neutral-900 hover:text-neutral-200"
+            >
               <span className="font-bold">CV</span>
-            </button>
+            </a>
           </div>
           <div className="mt-6 flex items-center justify-center">
             <GroupIcons />
