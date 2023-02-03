@@ -1,6 +1,7 @@
 import { IoLogoReact } from "react-icons/io5";
 import { GroupIcons } from "../";
 import { FiChevronsDown } from "react-icons/fi";
+import profile from "/src/assets/profile-pic.png";
 
 export const HomePhoneUI = ({ text }) => {
   return (
@@ -8,10 +9,7 @@ export const HomePhoneUI = ({ text }) => {
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-center justify-center gap-2">
           <figure className="w-8/12 border-2 border-neutral-300">
-            <img
-              className="aspect-square  object-cover"
-              src="/src/assets/profile-pic.png"
-            />
+            <img className="aspect-square  object-cover" src={profile} />
           </figure>
         </div>
         <div className="flex w-10/12 flex-col items-center justify-center ">
