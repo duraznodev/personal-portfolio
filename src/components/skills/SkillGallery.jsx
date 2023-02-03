@@ -8,7 +8,7 @@ const HardSkills = [
   { text: "TailwindCSS" },
 ];
 const SoftSkills = [
-  { text: "Autodidact" },
+  { text: "Self-taught" },
   { text: "Meticulous" },
   { text: "Self-management" },
   { text: "Implicated" },
