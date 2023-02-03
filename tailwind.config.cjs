@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       },
+      animation: {
+        "bounce-slow": "bounce 1.8s linear infinite",
+      },
     },
   },
   plugins: [],
