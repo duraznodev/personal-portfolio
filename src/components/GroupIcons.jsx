@@ -7,7 +7,7 @@ const socialLinks = [
     icon: <FiGithub />,
   },
   {
-    href: "https://www.linkedin.com/in/roman-rizo-688036224",
+    href: "https://www.linkedin.com/in/roman-rizo",
     icon: <FiLinkedin />,
   },
   {
